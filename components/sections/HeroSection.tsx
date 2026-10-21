@@ -23,7 +23,7 @@ export default function HeroSection() {
         <div className="shade"></div>
         <div className="copy">
           <h1 className="in" style={{ "--d": "1" } as CSSProperties}>
-            AI-Native Clinical care designed around abbas
+            AI-Native Clinical care designed around
             {" "}
             <em>
               every patient.
