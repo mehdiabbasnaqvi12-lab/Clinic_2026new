@@ -34,8 +34,8 @@
       position: absolute;
       inset: 0;
       z-index: -1;
-      background: linear-gradient(90deg, rgba(35, 28, 22, 0.55), rgba(35, 28, 22, 0.18) 55%, rgba(0, 0, 0, 0)),
-                  linear-gradient(0deg, rgba(0, 0, 0, 0.35), transparent 35%);
+      /* background: linear-gradient(90deg, rgba(35, 28, 22, 0.55), rgba(35, 28, 22, 0.18) 55%, rgba(0, 0, 0, 0)),
+                  linear-gradient(0deg, rgba(0, 0, 0, 0.35), transparent 35%); */
     }
 .section-1 .copy{
       position: absolute;
