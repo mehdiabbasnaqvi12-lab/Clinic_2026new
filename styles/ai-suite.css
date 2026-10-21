@@ -19,10 +19,10 @@ background-image:linear-gradient(90deg,transparent calc(25.5% - .5px),var(--line
 #section-9 .spin.r{animation-duration:120s;animation-direction:reverse}
 @keyframes sec9-spin{to{transform:rotate(360deg)}
 }
-#section-9 .node{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);margin:calc(var(--s)/-2) 0 0 calc(var(--s)/-2);border-radius:50%;background:none;width: 130px;height: 130px;overflow: hidden;
+#section-9 .node{position:absolute;left:var(--x);top:var(--y);width:var(--s);height:var(--s);margin:calc(var(--s)/-2) 0 0 calc(var(--s)/-2);border-radius:50%;background:none;width: 110px;height: 110px;overflow: hidden;
 box-shadow:none;display:grid;place-items:center;text-align:center;cursor:pointer;animation:sec9-spin 80s linear infinite reverse;transition:box-shadow .3s,scale .3s;font-weight:600;line-height:1.1}
 #section-9 .node img{width: 100% !important;}
-#section-9 .spin.r .node{width: 130px;height: 130px;animation-duration: 120s;animation-direction: normal;overflow: hidden;background: none;box-shadow: none;}
+#section-9 .spin.r .node{width:90px;height: 90px;animation-duration: 120s;animation-direction: normal;overflow: hidden;background: none;box-shadow: none;}
 #section-9 .spin.r .node img{width: 100% !important;}
 #section-9 .stage:has(.node:hover) .spin, #section-9 .stage:has(.node:hover) .node, #section-9 .stage:has(.node:focus-visible) .spin, #section-9 .stage:has(.node:focus-visible) .node{animation-play-state:paused}
 #section-9 .node:hover, #section-9 .node:focus-visible{scale:1.2;outline:none;box-shadow:0 0 0 8px rgba(155,93,229,.22),0 14px 44px var(--sh)}

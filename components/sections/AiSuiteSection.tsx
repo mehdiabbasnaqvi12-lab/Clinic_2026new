@@ -47,16 +47,7 @@ export default function AiSuiteSection() {
           </div>
           <div className="logo">
             <div className="disc">
-              <svg width="88" viewBox="0 0 100 100">
-                <defs>
-                  <linearGradient id="sec9-g" x1="0" y1="0" x2="1" y2="1">
-                    <stop offset="0" stopColor="#4f2fe0" />
-                    <stop offset="1" stopColor="#b061e8" />
-                  </linearGradient>
-                </defs>
-                <path d="M42 10 L58 10 L40 78 Q36 90 26 84 Q18 78 24 68Z" fill="url(#sec9-g)" />
-                <path d="M44 68 Q64 40 84 80" fill="none" stroke="#150a30" strokeWidth="12" strokeLinecap="round" />
-              </svg>
+              <Image src="/Images/logoicon.svg" alt="Augastam" width={0} height={0} style={{ width: "auto", height: "auto" }} />
             </div>
             <div>
               <span className="brand">
