@@ -129,7 +129,7 @@ export default function AiSuiteSection() {
         </div>
         <div className="copy">
           <h2>
-            Let Every Conversation Become Clinical Documentation.
+            Let Every Conversation <br/> Become Clinical Documentation.
           </h2>
           <ul>
             <li>

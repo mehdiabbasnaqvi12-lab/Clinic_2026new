@@ -35,33 +35,17 @@ export default function SolutionTabsSection() {
         <div className="card">
           <div className="panel on" role="tabpanel">
             <h2>
-              Comprehensive Clinical Documentation & EMR Management
+              Comprehensive Clinical <br/> Documentation & EMR Management
             </h2>
             <ul>
-              <li>
-                <i></i>
-                Configurable SOAP Notes & Templates
-              </li>
-              <li>
-                <i></i>
-                Doctor EMR, Nurse EMR & Personalized Care Plans
-              </li>
-              <li>
-                <i></i>
-                Specialty-wise EMR Configuration
-              </li>
-              <li>
-                <i></i>
-                Copy Previous Clinical Data & Comparative Clinical Analysis
-              </li>
+              <li><i></i> Configurable SOAP Notes & Templates </li>
+              <li><i></i> Doctor EMR, Nurse EMR & Personalized Care Plans  </li>
+              <li><i></i> Specialty-wise EMR Configuration</li>
+              <li><i></i> Copy Previous Clinical Data & Comparative Clinical Analysis</li>
             </ul>
-            <button className="try">
-              Try Now
-            </button>
+            <button className="try"> Try Now </button>
             <div className="right">
-              <p className="dr d-none">
-                Dr. Anusheel Singh
-              </p>
+              <p className="dr d-none"> Dr. Anusheel Singh </p>
               <div className="frame d-none">
                 <div className="inner">
                   <h4>
@@ -128,33 +112,17 @@ export default function SolutionTabsSection() {
           </div>
           <div className="panel" role="tabpanel">
             <h2>
-              Patient Engagement & Follow-Up Management
+              Patient Engagement & <br/> Follow-Up Management
             </h2>
             <ul>
-              <li>
-                <i></i>
-                Patient Follow-Up & Easy Follow-Up through Doctor App
-              </li>
-              <li>
-                <i></i>
-                Patient Engagement and Communication
-              </li>
-              <li>
-                <i></i>
-                WhatsApp-Based Patient Communication
-              </li>
-              <li>
-                <i></i>
-                Email and SMS Notification
-              </li>
+              <li><i></i> Patient Follow-Up & Easy Follow-Up through Doctor App </li>
+              <li><i></i> Patient Engagement and Communication</li>
+              <li><i></i> WhatsApp-Based Patient Communication</li>
+              <li><i></i> Email and SMS Notification </li>
             </ul>
-            <button className="try">
-              Try Now
-            </button>
+            <button className="try"> Try Now </button>
             <div className="right">
-              <p className="dr d-none">
-                Dr. Anusheel Singh
-              </p>
+              <p className="dr d-none">Dr. Anusheel Singh </p>
               <div className="frame d-none">
                 <div className="inner">
                   <h4>
@@ -211,25 +179,13 @@ export default function SolutionTabsSection() {
           </div>
           <div className="panel" role="tabpanel">
             <h2>
-              Smart Appointment Scheduling & Management
+              Smart Appointment Scheduling <br/> & Management
             </h2>
             <ul>
-              <li>
-                <i></i>
-                Online Appointment Booking & Appointment Management for <br/> Multiple Consultations
-              </li>
-              <li>
-                <i></i>
-                Easy Scheduling Through Doctor App
-              </li>
-              <li>
-                <i></i>
-                Doctor Availability and Schedule Management
-              </li>
-              <li>
-                <i></i>
-                Patient Follow-Up Appointment Booking
-              </li>
+              <li><i></i> Online Appointment Booking & Appointment Management for <br/> Multiple Consultations </li>
+              <li><i></i> Easy Scheduling Through Doctor App </li>
+              <li><i></i> Doctor Availability and Schedule Management</li>
+              <li><i></i> Patient Follow-Up Appointment Booking </li>
             </ul>
             <button className="try">
               Try Now

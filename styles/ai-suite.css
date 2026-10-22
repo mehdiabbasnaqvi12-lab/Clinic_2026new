@@ -10,7 +10,7 @@ background-image:linear-gradient(90deg,transparent calc(25.5% - .5px),var(--line
 /* HERO: fixed 1107x1180 canvas scaled to fit */
 #section-9 .hero{position:relative;height:1180px;overflow:hidden;background:radial-gradient(ellipse 600px 520px at 50% 58%,var(--glow),transparent 70%)}
 #section-9 .canvas{position:absolute;left:50%;top:0;width:1107px;height:1180px;margin-left:-553.5px;transform-origin:50% 0;scale:var(--k,1)}
-#section-9 .canvas h1{position:absolute;top:128px;left:0;right:0;text-align:center;font-size:46px;line-height:47px;padding:0 200px;z-index: 9;}
+#section-9 .canvas h1{position:absolute;top:128px;left:0;right:0;text-align:center;font-size:56px;line-height:47px;padding:0 200px;z-index: 9;}
 #section-9 .canvas .sub{position:absolute;top:236px;left:0;right:0;text-align:center;font-size:14px}
 #section-9 .stage{position:absolute;left:555px;top:691px;width:0;height:0}
 #section-9 .orbit{position:absolute;left:0;top:0;border:3px dashed var(--ring);border-radius:50%;pointer-events:none;translate:calc(-50% + var(--x,0px)) calc(-50% + var(--y,0px));transition:translate .5s ease-out,border-color .4s,opacity .4s;z-index: 0;}
@@ -40,10 +40,10 @@ box-shadow:none;display:grid;place-items:center;text-align:center;cursor:pointer
 }
 #section-9 .tag{font-style:italic;font-weight:300;font-size:19px;margin-top:22px}
 /* rows */
-#section-9 .row{display:flex;gap:59px;align-items:flex-start;justify-content:center;max-width:1107px;margin:0 auto;padding:0 76px}
+#section-9 .row{display:flex;gap:59px;align-items:flex-start;justify-content:center;max-width:1180px;margin:0 auto;padding:0 76px}
 #section-9 .row.one{margin-top:-30px}
-#section-9 .row.two{flex-direction:row-reverse;margin-top:78px;padding-bottom:20px}
-#section-9 .copy{flex:1;padding-top:30px}
+#section-9 .row.two{flex-direction:row-reverse;margin-top:90px;padding-bottom:20px}
+#section-9 .copy{flex:1;padding-top:30px;padding-left: 30px;}
 #section-9 .row.two .copy{padding-top:50px}
 #section-9 .copy h2{font-size:46px;line-height:47px}
 #section-9 .row.two .copy h2{font-size:46px}
