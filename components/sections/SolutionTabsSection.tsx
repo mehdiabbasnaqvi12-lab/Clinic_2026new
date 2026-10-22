@@ -4,7 +4,7 @@ import { useRef } from "react";
 import type { CSSProperties } from "react";
 import { useSolutionTabs } from "@/hooks/useSolutionTabs";
 import "@/styles/solution-tabs.css";
-
+import Image from "next/image";
 export default function SolutionTabsSection() {
   const ref = useRef<HTMLDivElement>(null);
   useSolutionTabs(ref);
@@ -35,30 +35,34 @@ export default function SolutionTabsSection() {
         <div className="card">
           <div className="panel on" role="tabpanel">
             <h2>
-              Get comprehensive analytics for your Clinics
+              Comprehensive Clinical Documentation & EMR Management
             </h2>
             <ul>
               <li>
                 <i></i>
-                Analyse patient trends
+                Configurable SOAP Notes & Templates
               </li>
               <li>
                 <i></i>
-                Get real-time appointment insights
+                Doctor EMR, Nurse EMR & Personalized Care Plans
               </li>
               <li>
                 <i></i>
-                Analyse patient trends
+                Specialty-wise EMR Configuration
+              </li>
+              <li>
+                <i></i>
+                Copy Previous Clinical Data & Comparative Clinical Analysis
               </li>
             </ul>
             <button className="try">
               Try Now
             </button>
             <div className="right">
-              <p className="dr">
+              <p className="dr d-none">
                 Dr. Anusheel Singh
               </p>
-              <div className="frame">
+              <div className="frame d-none">
                 <div className="inner">
                   <h4>
                     Total revenue for today
@@ -118,34 +122,40 @@ export default function SolutionTabsSection() {
                   </div>
                 </div>
               </div>
+              <Image src="/Images/Clinical_Notes_EMR.svg" alt="Akhil Systems logo" width={0} height={0} style={{ width: "auto", height: "auto" }} />
             </div>
+            
           </div>
           <div className="panel" role="tabpanel">
             <h2>
-              Smart scheduling that keeps every day on track
+              Patient Engagement & Follow-Up Management
             </h2>
             <ul>
               <li>
                 <i></i>
-                Book, reschedule and cancel in seconds
+                Patient Follow-Up & Easy Follow-Up through Doctor App
               </li>
               <li>
                 <i></i>
-                Reduce waiting time and no-shows
+                Patient Engagement and Communication
               </li>
               <li>
                 <i></i>
-                See every doctor's calendar at a glance
+                WhatsApp-Based Patient Communication
+              </li>
+              <li>
+                <i></i>
+                Email and SMS Notification
               </li>
             </ul>
             <button className="try">
               Try Now
             </button>
             <div className="right">
-              <p className="dr">
+              <p className="dr d-none">
                 Dr. Anusheel Singh
               </p>
-              <div className="frame">
+              <div className="frame d-none">
                 <div className="inner">
                   <h4>
                     Appointments today
@@ -196,34 +206,39 @@ export default function SolutionTabsSection() {
                   </div>
                 </div>
               </div>
+              <Image src="/Images/Pastel_Clinic_Appointment.svg" alt="Akhil Systems logo" width={0} height={0} style={{ width: "auto", height: "auto" }} />
             </div>
           </div>
           <div className="panel" role="tabpanel">
             <h2>
-              Keep every patient informed and connected
+              Smart Appointment Scheduling & Management
             </h2>
             <ul>
               <li>
                 <i></i>
-                Automated reminders and follow-ups
+                Online Appointment Booking & Appointment Management for <br/> Multiple Consultations
               </li>
               <li>
                 <i></i>
-                Share reports and prescriptions instantly
+                Easy Scheduling Through Doctor App
               </li>
               <li>
                 <i></i>
-                Collect feedback after every visit
+                Doctor Availability and Schedule Management
+              </li>
+              <li>
+                <i></i>
+                Patient Follow-Up Appointment Booking
               </li>
             </ul>
             <button className="try">
               Try Now
             </button>
             <div className="right">
-              <p className="dr">
+              <p className="dr d-none">
                 Dr. Anusheel Singh
               </p>
-              <div className="frame">
+              <div className="frame d-none">
                 <div className="inner">
                   <h4>
                     Patient engagement this month
@@ -272,8 +287,9 @@ export default function SolutionTabsSection() {
                       </span>
                     </div>
                   </div>
-                </div>
+                </div>                
               </div>
+              <Image src="/Images/Appointments_Scheduling.svg" alt="Akhil Systems logo" width={0} height={0} style={{ width: "auto", height: "auto" }} />
             </div>
           </div>
         </div>

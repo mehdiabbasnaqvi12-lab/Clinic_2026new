@@ -175,7 +175,7 @@ html[data-theme="dark"] #section-5{
       position: relative;
       max-width: 1279px;
       margin: 24px auto 0;
-      height: 607px;
+      height: 650px;
       border: 1px solid var(--cbd);
       /* Organic asymmetric border-radius */
       border-radius: 70px 100px 100px 100px / 70px 100px 100px 100px;
@@ -262,11 +262,12 @@ html[data-theme="dark"] #section-5{
        5. RIGHT-SIDE DASHBOARD WIDGET
        ========================================================================== */
 #section-5 .right{
-      position: absolute;
-      right: 87px;
-      top: 170px;
-      width: 459px;
-    }
+        position: absolute;
+        right: 60px;
+        top:152px;
+        width:35vw;
+      }
+      #section-5 .right img{width:100% !important;margin-top: 30px;}
 #section-5 .dr{
       text-align: right;
       font-weight: 700;
@@ -334,6 +335,7 @@ html[data-theme="dark"] #section-5{
 #section-5 .donut.hy .y, #section-5 .donut.hb .b{
       stroke-width: 22;
     }
+    .d-none{display:none;}
 /* Centre label */
 #section-5 .mid{
       position: absolute;
@@ -450,12 +452,11 @@ html[data-theme="dark"] #section-5{
       }
 #section-5 .right{
         position: absolute;
-        left: 24px;
-        right: 24px;
-        top: auto;
-        bottom: 30px;
-        width: auto;
+        right: 60px;
+        top:152px;
+        width:35vw;
       }
+      #section-5 .right img{width:100% !important;}
 #section-5 .dr{
         display: none;
       }
